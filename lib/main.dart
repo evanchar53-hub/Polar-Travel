@@ -723,7 +723,7 @@ class _PolarTravelHomePageState extends State<PolarTravelHomePage> {
 
   Marker _buildRoadFeatureMarker(RoadFeature f) {
     final (IconData icon, Color bg) = switch (f.type) {
-      RoadFeatureType.stopSign => (Icons.octagon_outlined, Colors.red.shade700),
+      RoadFeatureType.stopSign => (Icons.stop_circle_outlined, Colors.red.shade700),
       RoadFeatureType.trafficLight => (Icons.traffic, Colors.amber.shade800),
       RoadFeatureType.schoolZone => (Icons.school, PolarColors.royalBlue),
       RoadFeatureType.speedCamera => (Icons.camera_alt, Colors.deepPurple),
